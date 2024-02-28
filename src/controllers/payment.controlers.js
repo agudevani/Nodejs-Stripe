@@ -1,7 +1,7 @@
 import Stripe from "stripe";
-import { sk_test_51Ooos4KnZ9Xr3tW6uVDcMiyetxJYj3ye1Cf87FPTtPkB5voiyA9oXK9BuCNSF4bypOpua3RWiGs9rWHnL7ogCePt00PaDtjFHe } from "../config.js";
+import { sk_test_51Ooos4KnZ9Xr3tW6uVDcMiyetxJYj3ye1Cf87FPTtPkB5voiyA9oXK9BuCNSF4bypOpua3RWiGs9rWHnL7ogCePt00PaDtjFHe } from "../config.js"; //stripe-private-key
 
-const stripe = new Stripe(sk_test_51Ooos4KnZ9Xr3tW6uVDcMiyetxJYj3ye1Cf87FPTtPkB5voiyA9oXK9BuCNSF4bypOpua3RWiGs9rWHnL7ogCePt00PaDtjFHe);
+const stripe = new Stripe(sk_test_51Ooos4KnZ9Xr3tW6uVDcMiyetxJYj3ye1Cf87FPTtPkB5voiyA9oXK9BuCNSF4bypOpua3RWiGs9rWHnL7ogCePt00PaDtjFHe); //stripe-private-key
 
 export const createSession = async (req, res) => {
   try {
